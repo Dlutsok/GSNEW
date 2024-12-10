@@ -365,7 +365,6 @@ button {
   background: transparent;
   border: none;
   z-index: 376;
-  overflow: hidden;
 }
 .icon-9 {
   position: relative;
