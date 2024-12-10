@@ -1,0 +1,548 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1400px;
+  height: 4537px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.flex-row {
+  position: relative;
+  width: 1360px;
+  height: 275px;
+  margin: 40px 0 0 20px;
+  z-index: 24;
+}
+.rectangle {
+  position: absolute;
+  width: 786px;
+  height: 275px;
+  top: 0;
+  left: 0;
+  background: #0667ae;
+  z-index: 1;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.wave-halftone-background {
+  position: absolute;
+  width: 786px;
+  height: 275px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/6ab52131-bff4-4584-8ad5-c1226c2cb2c5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+  border-radius: 20px;
+}
+.gynecology-school-description {
+  position: relative;
+  width: 671px;
+  height: 95px;
+  margin: 24px 0 0 24px;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.008px;
+  text-align: left;
+  z-index: 7;
+}
+.gynecology-school {
+  position: relative;
+  color: #dc7b91;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39.008px;
+  text-align: left;
+}
+.separator {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.008px;
+  text-align: left;
+}
+.educational-project {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39.008px;
+  text-align: left;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 255px;
+  height: 50px;
+  margin: 75px 0 0 440px;
+  padding: 16px 15px 16px 15px;
+  background: #ffffff;
+  z-index: 8;
+  border-radius: 40px;
+  box-shadow: 0 2px 2px 0 rgba(26, 26, 26, 0.2);
+}
+.view-events {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 17px;
+  color: #1a1a1a;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 9;
+}
+.frame-d {
+  position: absolute;
+  width: 362px;
+  height: 132px;
+  top: 0;
+  left: 800px;
+  background: #6965a9;
+  z-index: 18;
+  border-radius: 25px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.flex-column {
+  position: absolute;
+  width: 239px;
+  height: 108px;
+  top: 12px;
+  left: 7px;
+  font-size: 0px;
+  z-index: 22;
+}
+.registered-users {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 239px;
+  height: 68px;
+  margin: 0 0 0 0;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 68px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 21;
+}
+.registered-users-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 239px;
+  height: 40px;
+  margin: 0 0 0 0;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.504px;
+  text-align: center;
+  z-index: 22;
+}
+.profile-icon {
+  position: absolute;
+  width: 84px;
+  height: 81px;
+  top: 46px;
+  left: 249px;
+  background: url(./assets/images/4f3ab5cb-34d9-4539-be22-e201d68a6ebc.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 23;
+}
+.frame-e {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: absolute;
+  width: 187px;
+  height: 132px;
+  top: 0;
+  left: 1173px;
+  padding: 8px 32px 8px 32px;
+  background: #ffffff;
+  z-index: 14;
+  border-radius: 25px;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 5px 5px 0 rgba(105, 101, 169, 0.3);
+}
+.frame-f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  width: 122px;
+  z-index: 15;
+}
+.online-events {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  min-width: 0;
+  height: 68px;
+  color: #dc7b91;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 68px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 16;
+}
+.online-events-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 122px;
+  min-width: 0;
+  height: 40px;
+  color: #dc7b91;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.504px;
+  text-align: center;
+  z-index: 17;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: absolute;
+  width: 245px;
+  height: 132px;
+  top: 143px;
+  left: 800px;
+  padding: 8px 29px 8px 29px;
+  background: #ffffff;
+  z-index: 10;
+  border-radius: 25px;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 5px 5px 0 rgba(105, 101, 169, 0.3);
+}
+.frame-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  width: 186px;
+  z-index: 11;
+}
+.registered-doctors {
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  min-width: 0;
+  height: 68px;
+  color: #dc7b91;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 68px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 12;
+}
+.registered-doctors-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 186px;
+  min-width: 0;
+  height: 40px;
+  color: #dc7b91;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.504px;
+  text-align: center;
+  z-index: 13;
+}
+.frame-12 {
+  position: absolute;
+  width: 303px;
+  height: 132px;
+  top: 143px;
+  left: 1056px;
+  background: #6965a9;
+  z-index: 24;
+  border-radius: 25px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.flex-column-13 {
+  position: absolute;
+  width: 108px;
+  height: 88px;
+  top: 16px;
+  left: 37px;
+  font-size: 0px;
+  z-index: 26;
+}
+.experts-count {
+  display: block;
+  position: relative;
+  height: 68px;
+  margin: 0 0 0 0;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 68px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 25;
+}
+.experts-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 108px;
+  height: 20px;
+  margin: 0 0 0 0;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.504px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 26;
+}
+.tick {
+  position: absolute;
+  width: 84px;
+  height: 81px;
+  top: 43px;
+  left: 185px;
+  background: url(./assets/images/657d7c97-8bad-4b31-9e9b-5132fb1e637c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 28;
+}
+.flex-row-14 {
+  position: relative;
+  width: 1360px;
+  height: 118px;
+  margin: 20px 0 0 20px;
+  z-index: 200;
+}
+.group {
+  position: absolute;
+  width: 520px;
+  height: 118px;
+  top: 0;
+  left: 0;
+  z-index: 6;
+}
+.ellipse {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/b00f77a5-c5e0-484c-9869-5495850c4f22.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+  border-radius: 50%;
+}
+.ellipse-15 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 140px;
+  background: url(./assets/images/8f82f643-2684-462a-95fb-e841c3a6219e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+  border-radius: 50%;
+}
+.ellipse-16 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 280px;
+  background: url(./assets/images/08cac1dd-a3ad-43d6-b9e1-40066eebdd62.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  border-radius: 50%;
+}
+.ellipse-17 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 420px;
+  background: url(./assets/images/e568f1f9-24e5-4d9b-82a6-21a3a49c3dda.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+  border-radius: 50%;
+}
+.frame-18 {
+  position: absolute;
+  width: 800px;
+  height: 103px;
+  top: 15px;
+  left: 560px;
+  background: url(./assets/images/b4738c78-f10e-4a19-9a75-16f37b8a766c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 200;
+  border-radius: 30px;
+}
+.flex-row-19 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 480px;
+  height: 26px;
+  margin: -10px 0 0 40px;
+  z-index: 203;
+}
+.new-drug {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 60px;
+  height: 26px;
+  color: #1a1a1a;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.409px;
+  text-align: center;
+  z-index: 201;
+}
+.new-drug-1a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 60px;
+  height: 26px;
+  color: #1a1a1a;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.409px;
+  text-align: center;
+  z-index: 202;
+}
+.new-drug-1b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 60px;
+  height: 26px;
+  color: #1a1a1a;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.409px;
+  text-align: center;
+  z-index: 203;
+}
+.new-drug-1c {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 60px;
+  height: 26px;
+  color: #1a1a1a;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.409px;
+  text-align: center;
+}
+.flex-row-1d {
+  position: relative;
+  width: 1360px;
+  height: 327px;
+  margin: 45px 0 0 20px;
+  z-index: 36;
+}
+.subtract {
+  position: absolute;
+  width: 786px;
+  height: 327px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/9019f21b-5b16-413e-859a-b5c25c2cccad.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 33;
+}
+
