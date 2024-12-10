@@ -91,8 +91,7 @@ button {
   width: 146px;
   height: 49.246px;
   margin: 5px 0 0 3px;
-  background: url(./assets/images/c67bcb3b-1bc5-494f-b015-d9ba86323240.png)
-    no-repeat center;
+  background: no-repeat center;
   background-size: 100% 100%;
   z-index: 355;
 }
@@ -154,6 +153,7 @@ button {
   overflow: hidden;
 }
 .frame-5 {
+  text-decoration: none;
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -164,6 +164,16 @@ button {
   height: 20px;
   z-index: 361;
 }
+
+.frame-5 a {
+  text-decoration: none;
+}
+
+.frame-5 a:hover {
+  color: #0667ae;
+}
+
+
 .about-us {
   flex-shrink: 0;
   flex-basis: auto;

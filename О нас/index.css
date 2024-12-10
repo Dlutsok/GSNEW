@@ -91,8 +91,7 @@ button {
   width: 146px;
   height: 49.246px;
   margin: 5px 0 0 3px;
-  background: url(./assets/images/920b1498-105d-4131-84af-8d5db0a178c7.png)
-    no-repeat center;
+  background: no-repeat center;
   background-size: 100% 100%;
   z-index: 207;
 }
